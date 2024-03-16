@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import { GridBackgroundDemo } from "@/components/ui/GridBackground";
 import Skills from "./components/Skills";
 import CursorBlob from "@/components/ui/cursorBlob";
+import Projects from "./components/Projects";
 
 
 export default function page() {
@@ -24,6 +25,8 @@ export default function page() {
       
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills/>
+        <Projects />
+        
       </div>
     </div>
 
