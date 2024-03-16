@@ -1,0 +1,36 @@
+/* CursorBlob.module.css */
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  display: block;
+  border-radius: 0;
+  transform-origin: center center;
+  z-index: 99998;
+  mix-blend-mode: difference;
+}
+
+.cursor .circle {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+}
+
+.cursor .anim_cursor {
+  background: none;
+  transform: scale(1.5);
+  animation: juggle 1s ease-in-out infinite;
+}
+
+@keyframes juggle {
+  0% {
+    transform: scale(1.5) translateY(0);
+  }
+  50% {
+    transform: scale(1.5) translateY(-10px);
+  }
+  100% {
+    transform: scale(1.5) translateY(0);
+  }
+}
