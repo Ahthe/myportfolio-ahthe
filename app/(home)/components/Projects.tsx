@@ -28,10 +28,46 @@ export default function Projects() {
         },
 
         {
+            title: "Sentiment Analyzer Tool",
+            tech: [SiPython],
+            link: "https://github.com/Ahthe/Sentiment-Analyzer-for-Stock-News",
+            cover: "/4.png",
+            background: "bg-gray-800",
+
+        },
+
+        {
             title: "AI Fable Trail",
             tech: [SiPython, SiOpenai],
-            link: "https://ahthe.github.io/Wreak-IT-Down--Multiplayer/",
+            link: "https://github.com/Ahthe/AI-FableTrail",
             cover: "/3.png",
+            background: "bg-gray-800",
+
+        },
+
+        {
+            title: "AI ChatBot",
+            tech: [SiNextdotjs, SiTailwindcss, SiTypescript, SiOpenai],
+            link: "https://github.com/Ahthe/ai-chat-bot-nextjs",
+            cover: "/7.png",
+            background: "bg-gray-800",
+
+        },
+
+        {
+            title: "AI Fable Trail",
+            tech: [SiPython, SiOpenai],
+            link: "https://github.com/Ahthe/AI-FableTrail",
+            cover: "/3.png",
+            background: "bg-gray-800",
+
+        },
+
+        {
+            title: "AI ChatBot",
+            tech: [SiNextdotjs, SiTailwindcss, SiTypescript, SiOpenai],
+            link: "https://github.com/Ahthe/ai-chat-bot-nextjs",
+            cover: "/7.png",
             background: "bg-gray-800",
 
         },
