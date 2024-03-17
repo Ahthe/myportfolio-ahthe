@@ -77,7 +77,7 @@ const CursorBlob = () => {
         width={10}
         height={10}
       />
-      {[...Array(30)].map((_, index) => (
+      {[...Array(60)].map((_, index) => (
         <span
           key={index}
           ref={(el) => (circlesRef.current[index] = el!)}

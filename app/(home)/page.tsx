@@ -11,8 +11,6 @@ export default function page() {
   return (
     <div>
      <CursorBlob/>
-
-
     <div className="min-h-[400vh] bg-black overflow-hidden">
       
       <div className="dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative">

@@ -4,10 +4,11 @@ import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
 import { SiCplusplus, SiCsharp, SiCss3, SiExpress, SiFigma, SiFlask, SiGithub, SiGo, SiGooglecloud, SiHtml5, SiJavascript, SiJquery, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPostgresql, SiPython, SiReact, SiRust, SiSharp, SiSpringboot, SiSwift, SiTailwindcss, SiThreedotjs, SiUnity } from 'react-icons/si'
-import { FaAws, FaJava } from 'react-icons/fa6'
+import { FaAws, FaCode, FaJava } from 'react-icons/fa6'
 import { TbApi, TbSdk, TbSql } from 'react-icons/tb'
 import { AiOutlineCloudServer } from 'react-icons/ai'
 import { BiLogoPostgresql } from 'react-icons/bi'
+import { MdCss, MdHtml } from 'react-icons/md'
 
 export default function Skills() {
 
@@ -15,14 +16,14 @@ export default function Skills() {
   const skills = [
 
     { 
-      text: "HTML", 
-      Icon: SiHtml5 
+      text: "HTML/CSS", 
+      Icon: FaCode
     },
     
-    { 
-      text: "CSS", 
-      Icon: SiCss3 
-    },
+    // { 
+    //   text: "CSS", 
+    //   Icon: SiCss3 
+    // },
     
     { 
       text: "JavaScript", 
@@ -71,7 +72,7 @@ export default function Skills() {
       Icon: SiCplusplus 
     },
 
-    { text: "RUST", Icon: SiRust },
+    // { text: "RUST", Icon: SiRust },
     
     { text: "GO", Icon: SiGo },
 
@@ -95,12 +96,12 @@ export default function Skills() {
       Icon: TbApi 
     },
 
-    { 
-      text: "REST API ", 
-      Icon: AiOutlineCloudServer 
-    },
+    // { 
+    //   text: "REST API ", 
+    //   Icon: AiOutlineCloudServer 
+    // },
         
-    { text: "Github", Icon: SiGithub },
+    { text: "Git", Icon: SiGithub },
     
     { text: "Google Cloud", Icon: SiGooglecloud },
     
