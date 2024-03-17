@@ -11,7 +11,7 @@ export default function HeroSection() {
             <h1 className='text-4xl lg:text-7xl font-bold'>
                 Nice to meet you! 👋
                 <br /> {" "}
-                <span className='underline underline-offset-8 decoration-green-500'>
+                <span className='text-blue-500 dark:text-blue-500 underline underline-offset-8 decoration-green-500'>
                     {"I'm Ahthesham."}
                 </span>
             </h1>

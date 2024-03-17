@@ -5,6 +5,7 @@ import { IconHome, IconMessage, IconStackFilled, IconUser } from "@tabler/icons-
 import { SiFuturelearn } from "react-icons/si";
 import { MdOutlineWork } from "react-icons/md";
 import { GoProject } from "react-icons/go";
+import { BiSolidTrophy } from "react-icons/bi";
 
 export function FloatingNavDemo({ sectionRefs }: { sectionRefs: any }) {
   const navItems = [
@@ -31,6 +32,14 @@ export function FloatingNavDemo({ sectionRefs }: { sectionRefs: any }) {
       ref: sectionRefs.experienceSection,
       icon: (
         <MdOutlineWork className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    },
+
+    {
+      name: "Achievements",
+      ref: sectionRefs.achievementsSection,
+      icon: (
+        <BiSolidTrophy className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
   ];
