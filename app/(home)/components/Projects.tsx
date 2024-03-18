@@ -1,9 +1,10 @@
 import React from 'react'
-import { SiCplusplus, SiCss3, SiExpress, SiHtml5, SiJavascript, SiNextdotjs, SiOpenai, SiPython, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiCplusplus, SiCsharp, SiCss3, SiExpress, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiOpenai, SiPython, SiTailwindcss, SiTypescript, SiVuedotjs } from 'react-icons/si';
 import Title from './Title';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
+import { FaJava } from 'react-icons/fa6';
 
 export default function Projects() {
   
@@ -55,22 +56,32 @@ export default function Projects() {
         },
 
         {
-            title: "AI Fable Trail",
-            tech: [SiPython, SiOpenai],
-            link: "https://github.com/Ahthe/AI-FableTrail",
-            cover: "/3.png",
+            title: "Recipe Webpage",
+            tech: [SiHtml5,SiCss3,SiJavascript, SiVuedotjs],
+            link: "https://github.com/Ahthe/Vue-Recipe-Webpage",
+            cover: "/6.png",
             background: "bg-gray-800",
 
         },
 
         {
-            title: "AI ChatBot",
-            tech: [SiNextdotjs, SiTailwindcss, SiTypescript, SiOpenai],
-            link: "https://github.com/Ahthe/ai-chat-bot-nextjs",
-            cover: "/7.png",
+            title: "Restuarant Reservation System",
+            tech: [SiHtml5,SiCss3,SiJavascript,SiCsharp,SiMysql],
+            link: "https://github.com/Ahthe/Restaurant-Reservation-System",
+            cover: "/8.png",
             background: "bg-gray-800",
 
         },
+
+        {
+            title: "Sudoku Solver",
+            tech: [FaJava],
+            link: "https://github.com/Ahthe/Restaurant-Reservation-System",
+            cover: "/9.png",
+            background: "bg-gray-800",
+
+        },
+
     ]
     
     

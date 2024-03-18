@@ -1,9 +1,5 @@
 import React from 'react';
-import { SiCplusplus, SiCss3, SiExpress, SiHtml5, SiJavascript, SiNextdotjs, SiOpenai, SiPython, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import Title from './Title';
-import Link from 'next/link';
-import { cn } from '@/lib/utils';
-import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
 import '@fontsource/montserrat/400.css';
 import '@fontsource/montserrat/600.css';
 

@@ -6,7 +6,6 @@ import { HoverEffect } from '@/components/ui/card-hover-effect'
 import { SiCplusplus, SiCsharp, SiCss3, SiExpress, SiFigma, SiFlask, SiGithub, SiGo, SiGooglecloud, SiHtml5, SiJavascript, SiJquery, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPostgresql, SiPython, SiReact, SiRust, SiSharp, SiSpringboot, SiSwift, SiTailwindcss, SiThreedotjs, SiUnity } from 'react-icons/si'
 import { FaAws, FaCode, FaJava } from 'react-icons/fa6'
 import { TbApi, TbSdk, TbSql } from 'react-icons/tb'
-import { AiOutlineCloudServer } from 'react-icons/ai'
 import { BiLogoPostgresql } from 'react-icons/bi'
 import { MdCss, MdHtml } from 'react-icons/md'
 

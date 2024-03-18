@@ -2,7 +2,7 @@ import { MovingBorderBtn } from '@/components/ui/moving-border'
 import Link from 'next/link'
 import React from 'react'
 import Title from './Title'
-import { FloatingNavDemo } from './floatingNavLinks'
+
 
 export default function HeroSection() {
   return (
