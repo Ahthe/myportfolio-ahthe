@@ -23,6 +23,11 @@ export default function Achievements() {
       icon: '🏆🥇',
     },
     {
+      title: 'Winner of Think Out of the Box Challenge',
+      description: 'Won the think out of the Box Challenge for creative thinking.',
+      icon: '🏆🥇',
+    },
+    {
       title: 'Cricket Team Captain',
       description: 'Led the cricket team, bolstering team spirit and resilience, and enhancing communication in High School.',
       icon: '🏏',

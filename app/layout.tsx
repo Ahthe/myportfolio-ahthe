@@ -10,21 +10,21 @@ export const metadata: Metadata = {
 
 	title: "Syed Ahthesham Ali",
 	authors: {
-		name: "Ahthesham Ali",
+		name: "Syed Ahthesham Ali",
 	},
 
 	description:
-		"Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app",
+		"I'm a recent CS grad passionate about web dev and problem-solving. Seeking entry-level role to learn and grow. Let's connect!",
 	openGraph: {
-		title: "Ahthesham",
+		title: "Syed Ahthesham Ali",
 		description:
-			"Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app.",
+		"I'm a recent CS grad passionate about web dev and problem-solving. Seeking entry-level role to learn and grow. Let's connect!",
 		url: "https://myportfolio-ahthe.vercel.app",
-		siteName: "Ahthesham",
+		siteName: "My Portfolio-Ahthesham",
 		images: "/og.png",
 		type: "website",
 	},
-	keywords: ["daily web coding", "ahthesham", "dailywebcoding", "portfolio", "portfolio website"],
+	keywords: ["daily web coding", "ahthesham", "programming", "software developer", "portfolio", "portfolio website"],
 };
 
 export default function RootLayout({

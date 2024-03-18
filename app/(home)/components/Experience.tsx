@@ -6,6 +6,20 @@ import '@fontsource/montserrat/600.css';
 export default function Experience() {
   const experiences = [
     {
+      company: "AMC",
+      location: "Dearborn, MI",
+      position: "Volunter Full Stack Web Developer",
+      duration: "Mar 2024 - Current",
+      description: (
+        <>
+          &bull; Maintaining and updating organization&apos;s website, improving user experience<br />
+          &bull; Developing new webpages for community projects using HTML, CSS, JavaScript<br />
+          &bull; Collaborating with IT team to implement new website features and optimize performance.<br />
+        </>
+      ),
+    },
+    
+    {
       company: "ACBSP VR Technologies",
       location: "Alliance, OH",
       position: "Software Engineer",
@@ -15,6 +29,17 @@ export default function Experience() {
           &bull; Developed a C# Unity-based VR application to analyze psychological behavior, enhancing research accuracy.<br />
           &bull; Designed VR scenarios such as a rage room horror scenario with Unity and Oculus SDK increasing user engagement by 17%.<br />
           &bull; Integrated Kanban, improving project efficiency and team collaboration by 23%.
+        </>
+      ),
+    },
+    {
+      company: "University of Mount Union",
+      location: "Alliance, OH",
+      position: "Programming and Math Tutor",
+      duration: "Jan 2022 - Dec 2023",
+      description: (
+        <>
+          &bull; Provided one-on-one and group tutoring sessions in programming languages (Java, Swift, C#) and math courses, helping students grasp complex concepts and improve their skills.<br />
         </>
       ),
     },

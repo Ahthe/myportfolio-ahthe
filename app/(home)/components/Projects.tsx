@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiCplusplus, SiCsharp, SiCss3, SiExpress, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiOpenai, SiPython, SiTailwindcss, SiTypescript, SiVuedotjs } from 'react-icons/si';
+import { SiCplusplus, SiCsharp, SiCss3, SiExpress, SiHtml5, SiJavascript, SiMysql, SiNextdotjs, SiOpenai, SiPython, SiSanity, SiTailwindcss, SiTypescript, SiVuedotjs } from 'react-icons/si';
 import Title from './Title';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
@@ -78,6 +78,15 @@ export default function Projects() {
             tech: [FaJava],
             link: "https://github.com/Ahthe/Restaurant-Reservation-System",
             cover: "/9.png",
+            background: "bg-gray-800",
+
+        },
+
+        {
+            title: "Blog Website",
+            tech: [SiNextdotjs, SiTailwindcss, SiTypescript, SiSanity],
+            link: "https://blog-nextjs-13-two.vercel.app",
+            cover: "/10.png",
             background: "bg-gray-800",
 
         },

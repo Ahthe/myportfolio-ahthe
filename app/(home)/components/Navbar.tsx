@@ -34,6 +34,8 @@ export default function Navbar({className}:{className?: string}) {
         Icon: SiDevpost,
   
     },
+
+    
    ];
 
 
