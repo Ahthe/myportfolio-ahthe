@@ -48,7 +48,8 @@ export default function Navbar() {
                     <Link 
                         href={social.Link} 
                         key={index} 
-                        aria-label={social.Label}> 
+                        aria-label={social.Label}
+                        target="_blank"> 
                 <Icon className='w-5 h-5 hover:scale-125 transition-all' />
              </Link> 
              ); 

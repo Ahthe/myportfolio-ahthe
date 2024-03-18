@@ -27,11 +27,21 @@ export default function Achievements() {
       description: 'Led the cricket team, bolstering team spirit and resilience, and enhancing communication in High School.',
       icon: '🏏',
     },
+    {
+        title: 'Winner of Alhali Club Swimming Compitation',
+        description: 'Won the Alhali Club Swimming Compitation',
+        icon: '🏆🥇',
+    },
+    {
+        title: 'House Captain',
+        description: 'Blue House Captain in my High School',
+        icon: '👨‍✈',
+    },
   ];
 
   return (
     <div className="max-w-5xl mx-auto px-8 py-16">
-      <Title text="Achievements 👑" className="flex flex-col items-center justify-center mb-12" />
+      <Title text="Achievements👑" className="flex flex-col items-center justify-center mb-12" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {achievements.map((achievement, index) => (
           <motion.div

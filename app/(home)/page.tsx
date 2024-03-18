@@ -10,6 +10,7 @@ import { FloatingNav } from "@/components/ui/floating-navbar";
 import { FloatingNavDemo } from "./components/floatingNavLinks";
 import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
+import AboutMe from "./components/AboutMe";
 
 export default function Page() {
   const heroSectionRef = useRef(null);
@@ -17,6 +18,7 @@ export default function Page() {
   const projectsSectionRef = useRef(null);
   const experienceSectionRef = useRef(null);
   const achievementsSectionRef = useRef(null);
+  const aboutmeSectionRef = useRef(null);
   return (
     <div>
       <CursorBlob />
@@ -33,6 +35,7 @@ export default function Page() {
                 projectsSection: projectsSectionRef,
                 experienceSection: experienceSectionRef,
                 achievementsSection: achievementsSectionRef,
+                aboutmeSection: aboutmeSectionRef,
               }}
             />
             <HeroSection />
@@ -55,6 +58,11 @@ export default function Page() {
           <div className="max-w-7xl mx-auto p-5 mt-19"> 
           <div ref={achievementsSectionRef}>
             <Achievements />
+          </div>
+          </div>
+          <div className="max-w-7xl mx-auto p-5 mt-19"> 
+          <div ref={aboutmeSectionRef}>
+            <AboutMe />
           </div>
           </div>
         </div>

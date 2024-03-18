@@ -92,7 +92,7 @@ export default function Projects() {
                 
                 return ( 
                 
-                    <Link href={project.link} key={index}>
+                    <Link href={project.link} key={index} target="_blank">
                     <div 
                         className={cn(
                             "p-1 rounded-md", 
