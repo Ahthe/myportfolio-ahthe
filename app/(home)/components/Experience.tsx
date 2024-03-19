@@ -39,7 +39,7 @@ export default function Experience() {
       duration: "Jan 2022 - Dec 2023",
       description: (
         <>
-          &bull; Provided one-on-one and group tutoring sessions in programming languages (Java, Swift, C#) and math courses, helping students grasp complex concepts and improve their skills.<br />
+        &bull; Provided one-on-one and group tutoring sessions in programming languages (Java, Swift, C#) and math courses, helping students grasp complex concepts and improve their skills.<br />
         </>
       ),
     },
@@ -67,24 +67,24 @@ export default function Experience() {
         </>
       ),
     },
-    // Add more experience objects as needed
+    // Add more experience objects as needed.
   ];
 
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <Title text="Experience 💪" className="flex flex-col items-center justify-center text-white" />
-      <div className="bg-gradient-to-r from-black to-gray-800 bg-opacity-15 p-8 rounded-lg shadow-lg mt-8">
+      <div className="bg-gradient-to-r from-black to-gray-800 bg-opacity-15 p-6 rounded-lg shadow-lg mt-8">
         {experiences.map((experience, index) => (
           <div key={index} className="mb-8">
             <div className="relative group perspective-1000">
-              <div className="bg-gray-900 p-6 rounded-lg shadow-md transition duration-500 ease-in-out group-hover:bg-gradient-to-r from-gray-900 to-gray-800 group-hover:scale-115 group-hover:shadow-lg transform-style-3d group-hover:rotate-x-50 group-hover:rotate-y-20 group-hover:-translate-x-10 group-hover:-translate-y-10 group-hover:z-10">
-                <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-semibold text-white font-montserrat">{experience.company}</h3>
-                  <p className="text-gray-400 font-montserrat">{experience.duration}</p>
+              <div className="bg-gray-900 p-6 rounded-lg shadow-md transition duration-500 ease-in-out group-hover:bg-gradient-to-r from-gray-900 to-gray-800 group-hover:scale-105 group-hover:shadow-lg transform-style-3d group-hover:rotate-x-20 group-hover:rotate-y-20 group-hover:-translate-x-4 group-hover:-translate-y-4 group-hover:z-10">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+                  <h3 className="text-xl font-semibold text-white font-montserrat mb-2 md:mb-0">{experience.company}</h3>
+                  <p className="text-gray-400 font-montserrat text-sm md:text-base">{experience.duration}</p>
                 </div>
-                <p className="text-gray-300 mb-2 font-montserrat">{experience.location}</p>
+                <p className="text-gray-300 mb-2 font-montserrat text-sm md:text-base">{experience.location}</p>
                 <p className="text-lg font-semibold text-white mb-2 font-montserrat">{experience.position}</p>
-                <p className="text-gray-100 font-montserrat leading-relaxed">{experience.description}</p>
+                <div className="text-gray-100 font-montserrat leading-relaxed text-sm md:text-base">{experience.description}</div>
               </div>
             </div>
             {index !== experiences.length - 1 && (
