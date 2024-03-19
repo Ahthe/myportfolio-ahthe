@@ -22,7 +22,7 @@ export default function Experience() {
     {
       company: "ACBSP VR Technologies",
       location: "Alliance, OH",
-      position: "Software Engineer",
+      position: "Software Developer",
       duration: "Sept 2022 - Apr 2023",
       description: (
         <>
