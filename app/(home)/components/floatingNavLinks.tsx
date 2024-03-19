@@ -5,6 +5,8 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import { cn } from "@/lib/utils";
 import { BiSolidTrophy } from "react-icons/bi";
 import { MdOutlineWork } from "react-icons/md";
+import { SiCodecademy } from "react-icons/si";
+import { FaCode } from "react-icons/fa6";
 
 export function FloatingNavDemo({ sectionRefs }: { sectionRefs: any }) {
   const navItems = [
@@ -61,7 +63,7 @@ export function FloatingNavDemo({ sectionRefs }: { sectionRefs: any }) {
       ref: sectionRefs.projectsSection,
       icon: (
         <>
-          <IconUser className="h-4 w-4 text-neutral-500 dark:text-white sm:hidden" />
+          <FaCode className="h-4 w-4 text-neutral-500 dark:text-white sm:hidden" />
           <span className="hidden sm:inline-block text-xs font-medium text-neutral-600 dark:text-neutral-300 font-sans tracking-wide">
             Projects
           </span>
