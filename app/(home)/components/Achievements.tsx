@@ -33,8 +33,8 @@ export default function Achievements() {
       icon: '🏏',
     },
     {
-        title: 'Winner of Alhali Club Swimming Compitation',
-        description: 'Won the Alhali Club Swimming Compitation',
+        title: 'Winner of Alhali Club Swimming Competition',
+        description: 'Won the Alhali Club Swimming Competition',
         icon: '🏆🥇',
     },
     {
