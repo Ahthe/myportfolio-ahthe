@@ -12,9 +12,9 @@ export default function Experience() {
       duration: "Mar 2024 - Current",
       description: (
         <>
-          &bull; Maintaining and updating organization&apos;s website, improving user experience<br />
-          &bull; Developing new webpages for community projects using HTML, CSS, JavaScript<br />
-          &bull; Collaborating with IT team to implement new website features and optimize performance.<br />
+          &bull; Maintaining and updating organization’s website, developing new webpages for community projects using HTML,
+                 CSS, JavaScript, React, and Next.js, resulting in a 22% increase in user engagement and user experience.<br />
+          &bull; Collaborating with IT team to implement new features and optimize performance, reducing bounce rate by 17%.<br />
         </>
       ),
     },
@@ -28,7 +28,7 @@ export default function Experience() {
         <>
           &bull; Developed a C# Unity-based VR application to analyze psychological behavior, enhancing research accuracy.<br />
           &bull; Designed VR scenarios such as a rage room horror scenario with Unity and Oculus SDK increasing user engagement by 17%.<br />
-          &bull; Integrated Kanban, improving project efficiency and team collaboration by 23%.
+          &bull; Integrated Kanban, improving project efficiency by 20% and team collaboration by 23%.
         </>
       ),
     },
@@ -62,8 +62,8 @@ export default function Experience() {
       duration: "Aug 2016 - Jan 2020",
       description: (
         <>
-          &bull; Led business operations across retail chains, cutting costs by 12% and raising customer satisfaction by 18%.<br />
-          &bull; Implemented security and surveillance system deployment, significantly improving loss prevention.<br />
+          &bull; Led business operations across retail chains using lean principles and data-driven decisions, reducing costs by 15% and increasing customer satisfaction by 20%.<br />
+          &bull; Implemented advanced security and surveillance systems with real-time monitoring, reducing shrinkage by 27%.<br />
         </>
       ),
     },
