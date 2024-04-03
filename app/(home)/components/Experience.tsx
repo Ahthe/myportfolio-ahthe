@@ -8,13 +8,12 @@ export default function Experience() {
     {
       company: "AMC",
       location: "Dearborn, MI",
-      position: "Volunter Full Stack Web Developer",
+      position: "Full Stack Web Developer",
       duration: "Mar 2024 - Current",
       description: (
         <>
-          &bull; Maintaining and updating organization’s website, developing new webpages for community projects using HTML,
-                 CSS, JavaScript, React, and Next.js, resulting in a 22% increase in user engagement and user experience.<br />
-          &bull; Collaborating with IT team to implement new features and optimize performance, reducing bounce rate by 17%.<br />
+          &bull; Developing new webpages for community projects using HTML, CSS, JavaScript, React, and Next.js, resulting in an increase in website traffic<br />
+          &bull; Collaborating with IT team to implement new features and optimize performance, reducing bounce rate<br />
         </>
       ),
     },
@@ -28,7 +27,7 @@ export default function Experience() {
         <>
           &bull; Developed a C# Unity-based VR application to analyze psychological behavior, enhancing research accuracy.<br />
           &bull; Designed VR scenarios such as a rage room horror scenario with Unity and Oculus SDK increasing user engagement by 17%.<br />
-          &bull; Integrated Kanban, improving project efficiency by 20% and team collaboration by 23%.
+          &bull; Integrated Kanban, improving project efficiency and team collaboration.
         </>
       ),
     },
