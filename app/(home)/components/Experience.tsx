@@ -6,6 +6,19 @@ import '@fontsource/montserrat/600.css';
 export default function Experience() {
   const experiences = [
     {
+      company: "Welocalize - Contract Amazon",
+      location: "Remote",
+      position: "AI Data Annotator - Part Time",
+      duration: "May 2024 - Current",
+      description: (
+        <>
+          &bull; Perform AI-driven evaluations through data labeling, contributing to improved Amazon search result accuracy<br />
+          &bull; Enhance AI suggestion systems by selecting highly relevant options, aiming to increase customer satisfaction<br />
+        </>
+      ),
+    },
+
+    {
       company: "American Muslim Center Dearborn",
       location: "Remote",
       position: "Full Stack Web Developer - Part Time",
@@ -20,14 +33,14 @@ export default function Experience() {
     },
     
     {
-      company: "ACBSP VR Technologies",
+      company: "ACBSP VR Technologies - StartUp",
       location: "Alliance, OH",
       position: "Software Developer",
       duration: "Sept 2022 - Apr 2023",
       description: (
         <>
-          &bull; Developed a C# Unity-based VR application to analyze psychological behavior, enhancing research accuracy.<br />
-          &bull; Designed VR scenarios such as a rage room horror scenario with Unity and Oculus SDK increasing user engagement by 17%.<br />
+          &bull; Developed a C# Unity-based VR application to analyze psychological behavior, enhancing research accuracy<br />
+          &bull; Designed VR scenarios such as a rage room horror scenario with Unity and Oculus SDK increasing user engagement by 17%<br />
           {/* &bull; Integrated Kanban, improving project efficiency and team collaboration. */}
         </>
       ),
@@ -39,7 +52,7 @@ export default function Experience() {
       duration: "Jan 2022 - Dec 2023",
       description: (
         <>
-        &bull; Provided one-on-one and group tutoring sessions in programming languages (Java, Swift, C#) and Math courses, helping students grasp complex concepts, resulting in an average grade improvement of 30%.<br />
+        &bull; Provided one-on-one and group tutoring sessions in programming languages (Java, Swift, C#) and Math courses, helping students grasp complex concepts, resulting in an average grade improvement of 30%<br />
         </>
       ),
     },
@@ -62,9 +75,9 @@ export default function Experience() {
       duration: "Dec 2021 - May 2022",
       description: (
         <>
-          &bull; Provided efficient remote technical support, troubleshooting complex issues for a staff of 20+. <br />
-          &bull; Implemented system enhancements that improved overall operational efficiency by 20%. <br />
-          &bull; Maintained and optimized computer systems and databases, ensuring 99.9% uptime. <br />
+          &bull; Provided efficient remote technical support, troubleshooting complex issues for a staff of 20+<br />
+          &bull; Implemented system enhancements that improved overall operational efficiency by 20%<br />
+          &bull; Maintained and optimized computer systems and databases, ensuring 99.9% uptime<br />
         </>
       ),
     },
