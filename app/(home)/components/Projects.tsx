@@ -11,10 +11,28 @@ export default function Projects() {
     const projects = [
         
         {
+            title: "AI Plays Flappy Bird",
+            tech: [SiPython],
+            link: "https://github.com/Ahthe/AI-Plays-Flappy-Bird.git",
+            cover: "/11.png",
+            background: "bg-gray-800",
+
+        },
+        
+        {
             title: "Wave Wallet",
             tech: [SiNextdotjs, SiTailwindcss, SiTypescript, SiPython, SiCplusplus],
             link: "https://devpost.com/software/wavewallet",
             cover: "/1.png",
+            background: "bg-gray-800",
+
+        },
+
+        {
+            title: "ScribeMate - Google AI Hackathon",
+            tech: [SiNextdotjs, SiTailwindcss, SiTypescript, SiOpenai],
+            link: "https://devpost.com/software/travelpal-1pkx42",
+            cover: "/12.png",
             background: "bg-gray-800",
 
         },

@@ -6,7 +6,7 @@ import { FaCode, FaDatabase, FaServer, FaMobile } from 'react-icons/fa';
 
 export default function HeroSection() {
     const handleDownloadResume = () => {
-        window.open('/Ahthesham_Ali_Syed_Resume..pdf', '_blank');
+        window.open('/Ahthesham_Ali_Syed_Resume.pdf', '_blank');
       };
       const handleContactMe = () => {
         window.location.href = 'mailto:ahtheshamali786@gmail.com';
