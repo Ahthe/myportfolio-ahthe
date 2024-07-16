@@ -6,28 +6,29 @@ import '@fontsource/montserrat/600.css';
 export default function Experience() {
   const experiences = [
     {
-      company: "Welocalize - Contract Amazon",
-      location: "Remote",
-      position: "AI Data Annotator - Part Time",
-      duration: "May 2024 - Current",
-      description: (
-        <>
-          &bull; Perform AI-driven evaluations through data labeling, contributing to improved Amazon search result accuracy<br />
-          &bull; Enhance AI suggestion systems by selecting highly relevant options, aiming to increase customer satisfaction<br />
-        </>
-      ),
-    },
-
-    {
       company: "American Muslim Center Dearborn",
       location: "Remote",
       position: "Full Stack Web Developer - Part Time",
       duration: "Mar 2024 - Current",
       description: (
         <>
-          &bull; Developing new webpages for community projects using HTML, CSS, JavaScript, React, and Next.js<br />
-          &bull; Collaborating with IT team to implement new features and optimize performance, and to reduce the bounce rate<br />
-          &bull; Implement user-centric features to enhance community engagement and improve overall user experience<br />
+          &bull; Created an event booking website using NextJS, MongoDB, Clerk, and StripeAPI to streamline registration, strengthen community bonds and address social health concerns for 800+ members<br />
+          &bull; Foster a positive learning environment by creating an interactive NextJS Quiz app for summer school children<br />
+          &bull; Collaborated with IT to implement these user-centric features, aiming to increase website traffic by 10-20% <br/>
+        </>
+      ),
+    },
+
+    {
+      company: "Headstarter AI",
+      location: "NY, Hybrid",
+      position: "Incoming Software Engineering Fellow",
+      duration: "July 2024 - Current",
+      description: (
+        <>
+          &bull; Built 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users<br />
+          &bull; Develop projects from design to deployment leading 4+ engineering fellows using MVC design patterns<br />
+          &bull; Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git and microservice patterns<br />
         </>
       ),
     },
@@ -39,12 +40,28 @@ export default function Experience() {
       duration: "Sept 2022 - Apr 2023",
       description: (
         <>
-          &bull; Developed a C# Unity-based VR application to analyze psychological behavior, enhancing research accuracy<br />
-          &bull; Designed VR scenarios such as a rage room horror scenario with Unity and Oculus SDK increasing user engagement by 17%<br />
-          {/* &bull; Integrated Kanban, improving project efficiency and team collaboration. */}
+          &bull; Tasked with creating a VR action game in Unity to study psychological behavior and improve research studies<br />
+          &bull; Constructed a VR action game in Unity using C# and Oculus SDK, potentially targeting the prefrontal cortex to reduce user stress and anxiety by 30%, through strategic enemy dismemberment scenarios<br />
         </>
       ),
     },
+
+
+    // {
+    //   company: "Welocalize - Contract Amazon",
+    //   location: "Remote",
+    //   position: "AI Data Annotator - Part Time",
+    //   duration: "May 2024 - Current",
+    //   description: (
+    //     <>
+    //       &bull; Perform AI-driven evaluations through data labeling, contributing to improved Amazon search result accuracy<br />
+    //       &bull; Enhance AI suggestion systems by selecting highly relevant options, aiming to increase customer satisfaction<br />
+    //     </>
+    //   ),
+    // },
+
+
+
     {
       company: "University of Mount Union",
       location: "Alliance, OH",
@@ -52,7 +69,7 @@ export default function Experience() {
       duration: "Jan 2022 - Dec 2023",
       description: (
         <>
-        &bull; Provided one-on-one and group tutoring sessions in programming languages (Java, Swift, C#) and Math courses, helping students grasp complex concepts, resulting in an average grade improvement of 30%<br />
+        &bull; Provided comprehensive one-on-one and group tutoring sessions in programming languages such as Java, SQL, C#,Swift, and Math courses, resulting in an average grade improvement of 30%<br />
         </>
       ),
     },
@@ -75,9 +92,8 @@ export default function Experience() {
       duration: "Dec 2021 - May 2022",
       description: (
         <>
-          &bull; Provided efficient remote technical support, troubleshooting complex issues for a staff of 20+<br />
-          &bull; Implemented system enhancements that improved overall operational efficiency by 20%<br />
-          &bull; Maintained and optimized computer systems and databases, ensuring 99.9% uptime<br />
+          &bull; Improved overall operational efficiency by 20% across multiple branches, through implementing network configurations and Dentrix Ascend software for improved dental imaging for the doctors<br />
+          &bull; Maintained 99.9% uptime for critical systems by providing remote support for 100+ staff and recovering lost data<br />
         </>
       ),
     },
