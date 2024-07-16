@@ -3,7 +3,7 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
-import { SiCplusplus, SiCsharp, SiCss3, SiExpress, SiFigma, SiFlask, SiGithub, SiGo, SiGooglecloud, SiHtml5, SiJavascript, SiJquery, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPostgresql, SiPython, SiReact, SiRust, SiSharp, SiSpringboot, SiSwift, SiTailwindcss, SiThreedotjs, SiUnity } from 'react-icons/si'
+import { SiCplusplus, SiCsharp, SiCss3, SiExpress, SiFigma, SiFlask, SiGithub, SiGo, SiGooglecloud, SiHtml5, SiJavascript, SiJquery, SiLinux, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPostgresql, SiPython, SiReact, SiRust, SiSharp, SiSpringboot, SiSvelte, SiSwift, SiTailwindcss, SiThreedotjs, SiTypescript, SiUnity } from 'react-icons/si'
 import { FaAws, FaCode, FaJava } from 'react-icons/fa6'
 import { TbApi, TbSdk, TbSql } from 'react-icons/tb'
 import { BiLogoMongodb, BiLogoPostgresql } from 'react-icons/bi'
@@ -14,106 +14,92 @@ export default function Skills() {
 
   const skills = [
 
-    { 
-      text: "HTML/CSS", 
-      Icon: FaCode
-    },
+    { text: "Java", Icon: FaJava },
+
+    { text: "C++", Icon: SiCplusplus },
     
+    { text: "Python", Icon: SiPython },
+
+    { text: "JavaScript", Icon: SiJavascript },
+
+    { text: "C#", Icon: SiCsharp },
+
+    { text: "Swift", Icon: SiSwift },
+
+    { text: "SQL", Icon: TbSql },
+
+    { text: "MongoDB", Icon: BiLogoMongodb },
+
+    { text: "HTML/CSS", Icon: FaCode },
+
+    { text: "LaTeX", Icon: MdHtml },
+    
+
+
+    //Frameworks and Libraries
+    
+    { text: "NextJS", Icon: SiNextdotjs },
+
+    { text: "React", Icon: SiReact },
+
+    { text: "Typescript", Icon: SiTypescript },
+    
+    { text: "NodeJS", Icon: SiNodedotjs },
+    
+    { text: "Tailwind", Icon: SiTailwindcss },
+
+    { text: "Spring", Icon: SiSpringboot },
+
+    { text: "ASP.NET", Icon: SiExpress },
+
+    { text: "Flask", Icon: SiFlask },
+
+    { text: "Svelte", Icon: SiSvelte },
+      
+    // { text: "ThreeJS", Icon: SiThreedotjs },
+        
+    // { text: "API Integrations", Icon: TbApi },
+
+        
+    // Tools
+
+    { text: "AWS", Icon: FaAws},
+
+    { text: "Google Cloud", Icon: SiGooglecloud },
+
+    { text: "Git", Icon: SiGithub },
+
+    { text: "CI/CD", Icon: TbSdk },
+
+    { text: "REST API", Icon: TbApi },
+
+    { text: "Unity", Icon: SiUnity },
+    
+    { text: "Figma", Icon: SiFigma },
+
+    { text: "Linux", Icon: SiLinux },
+
+
+    
+    // { 
+    //   text: "REST API ", 
+    //   Icon: AiOutlineCloudServer 
+    // },
+
     // { 
     //   text: "CSS", 
     //   Icon: SiCss3 
     // },
-    
-    { 
-      text: "JavaScript", 
-      Icon: SiJavascript 
-    },
-    
-    { 
-      text: "React", 
-      Icon: SiReact 
-    },
-    
-    { 
-      text: "NextJS", 
-      Icon: SiNextdotjs 
-    },
-    
-    { 
-      text: "Tailwind", 
-      Icon: SiTailwindcss 
-    },
-    
-    { 
-      text: "NodeJS", 
-      Icon: SiNodedotjs
-    },
-      
-    { text: "ThreeJS", Icon: SiThreedotjs },
-    
-    { 
-      text: "Java", 
-      Icon: FaJava 
-    },
-    
-    { 
-      text: "Python", 
-      Icon: SiPython 
-    },
-    
-    { 
-      text: "C#", 
-      Icon: SiCsharp 
-    },
-        
-    { 
-      text: "C++", 
-      Icon: SiCplusplus 
-    },
+
+        // { 
+    //   text: "PostgresSQL", 
+    //   Icon: BiLogoPostgresql 
+    // },
 
     // { text: "RUST", Icon: SiRust },
     
     // { text: "GO", Icon: SiGo },
 
-    { 
-      text: "Swift", 
-      Icon: SiSwift 
-    },
-    
-    { 
-      text: "SQL", 
-      Icon: TbSql
-    },
-    
-    // { 
-    //   text: "PostgresSQL", 
-    //   Icon: BiLogoPostgresql 
-    // },
-
-    { 
-      text: "MongoDB", 
-      Icon: BiLogoMongodb 
-    },
-   
-    { 
-      text: "API Integrations", 
-      Icon: TbApi 
-    },
-
-    // { 
-    //   text: "REST API ", 
-    //   Icon: AiOutlineCloudServer 
-    // },
-        
-    { text: "Git", Icon: SiGithub },
-    
-    { text: "Google Cloud", Icon: SiGooglecloud },
-
-    { text: "Figma", Icon: SiFigma },
-
-    {text: "AWS", Icon: FaAws},
-    
-    { text: "Unity", Icon: SiUnity },
       
   ]
 
