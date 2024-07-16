@@ -6,7 +6,7 @@ import { HoverEffect } from '@/components/ui/card-hover-effect'
 import { SiCplusplus, SiCsharp, SiCss3, SiExpress, SiFigma, SiFlask, SiGithub, SiGo, SiGooglecloud, SiHtml5, SiJavascript, SiJquery, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPostgresql, SiPython, SiReact, SiRust, SiSharp, SiSpringboot, SiSwift, SiTailwindcss, SiThreedotjs, SiUnity } from 'react-icons/si'
 import { FaAws, FaCode, FaJava } from 'react-icons/fa6'
 import { TbApi, TbSdk, TbSql } from 'react-icons/tb'
-import { BiLogoPostgresql } from 'react-icons/bi'
+import { BiLogoMongodb, BiLogoPostgresql } from 'react-icons/bi'
 import { MdCss, MdHtml } from 'react-icons/md'
 
 export default function Skills() {
@@ -35,7 +35,7 @@ export default function Skills() {
     },
     
     { 
-      text: "Next.js", 
+      text: "NextJS", 
       Icon: SiNextdotjs 
     },
     
@@ -45,11 +45,11 @@ export default function Skills() {
     },
     
     { 
-      text: "Node.js", 
+      text: "NodeJS", 
       Icon: SiNodedotjs
     },
       
-    { text: "Three.js", Icon: SiThreedotjs },
+    { text: "ThreeJS", Icon: SiThreedotjs },
     
     { 
       text: "Java", 
@@ -73,7 +73,7 @@ export default function Skills() {
 
     // { text: "RUST", Icon: SiRust },
     
-    { text: "GO", Icon: SiGo },
+    // { text: "GO", Icon: SiGo },
 
     { 
       text: "Swift", 
@@ -85,9 +85,14 @@ export default function Skills() {
       Icon: TbSql
     },
     
+    // { 
+    //   text: "PostgresSQL", 
+    //   Icon: BiLogoPostgresql 
+    // },
+
     { 
-      text: "PostgresSQL", 
-      Icon: BiLogoPostgresql 
+      text: "MongoDB", 
+      Icon: BiLogoMongodb 
     },
    
     { 
@@ -103,6 +108,10 @@ export default function Skills() {
     { text: "Git", Icon: SiGithub },
     
     { text: "Google Cloud", Icon: SiGooglecloud },
+
+    { text: "Figma", Icon: SiFigma },
+
+    {text: "AWS", Icon: FaAws},
     
     { text: "Unity", Icon: SiUnity },
       
