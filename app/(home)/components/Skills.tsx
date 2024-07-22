@@ -33,8 +33,6 @@ export default function Skills() {
     { text: "HTML/CSS", Icon: FaCode },
 
     { text: "LaTeX", Icon: MdHtml },
-    
-
 
     //Frameworks and Libraries
     
