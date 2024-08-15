@@ -8,13 +8,14 @@ export default function Experience() {
     {
       company: "American Muslim Center Dearborn",
       location: "Remote",
-      position: "Full Stack Web Developer - Part Time",
+      position: "Full Stack Web Developer",
       duration: "Mar 2024 - Current",
       description: (
         <>
-          &bull; Created an event booking website using NextJS, MongoDB, Clerk, and StripeAPI to streamline registration, strengthen community bonds and address social health concerns for 800+ members<br />
-          &bull; Foster a positive learning environment by creating an interactive NextJS Quiz app for summer school children<br />
-          &bull; Collaborated with IT to implement these user-centric features, aiming to increase website traffic by 10-20% <br/>
+          &bull; Expanded community reach from 800+ to potentially 1000+ members by developing an event booking website
+          using NextJS, MongoDB, Clerk, and StripeAPI, streamlining registration and addressing social health concerns<br />
+          &bull; Created an interactive Quiz app with NextJS, Sanity.io, and MongoDB for summer school children and 
+          implemented engaging features such as leaderboards, increasing student engagement through gamified education<br />
         </>
       ),
     },
@@ -26,7 +27,7 @@ export default function Experience() {
       duration: "July 2024 - Current",
       description: (
         <>
-          &bull; Built 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users<br />
+          &bull; Built 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI as seen by 1000 users<br />
           &bull; Develop projects from design to deployment leading 4+ engineering fellows using MVC design patterns<br />
           &bull; Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git and microservice patterns<br />
         </>
@@ -36,12 +37,12 @@ export default function Experience() {
     {
       company: "ACBSP VR Technologies - StartUp",
       location: "Alliance, OH",
-      position: "Software Developer",
+      position: "Software Engineer",
       duration: "Sept 2022 - Apr 2023",
       description: (
         <>
           &bull; Tasked with creating a VR action game in Unity to study psychological behavior and improve research studies<br />
-          &bull; Constructed a VR action game in Unity using C# and Oculus SDK, potentially targeting the prefrontal cortex to reduce user stress and anxiety by 30%, through strategic enemy dismemberment scenarios<br />
+          &bull; Constructed a VR action game in Unity using C# and Oculus SDK, targeting the prefrontal cortex to reduce user stress and anxiety by 30%, through strategic enemy dismemberment scenarios<br />
         </>
       ),
     },
@@ -65,11 +66,14 @@ export default function Experience() {
     {
       company: "University of Mount Union",
       location: "Alliance, OH",
-      position: "Programming and Math Tutor",
+      position: "Computer Science and Math Tutor",
       duration: "Jan 2022 - Dec 2023",
       description: (
         <>
-        &bull; Provided comprehensive one-on-one and group tutoring sessions in programming languages such as Java, SQL, C#,Swift, and Math courses, resulting in an average grade improvement of 30%<br />
+        &bull; Improved grades of 90% of tutored students from failing grades of 55% to high achievers 85-90% within a semester 
+        by tutoring in Systems Programming, Data Structures, Algorithms, and Mathematics<br />
+        &bull; Analyzed and debugged code in Java, C#, Swift and SQL using IDE tools and debugging techniques, while teaching
+        key mathematical concepts such as calculus, linear algebra, and statistics resulting in a 35% grade increase<br />
         </>
       ),
     },
@@ -92,8 +96,8 @@ export default function Experience() {
       duration: "Dec 2021 - May 2022",
       description: (
         <>
-          &bull; Improved overall operational efficiency by 20% across multiple branches, through implementing network configurations and Dentrix Ascend software for improved dental imaging for the doctors<br />
-          &bull; Maintained 99.9% uptime for critical systems by providing remote support for 100+ staff and recovering lost data<br />
+          &bull; Increased operational efficiency by 20% for 150+ staff across multiple branches by implementing network 
+          configurations, providing remote support, and optimizing Dentrix Ascend software for improved dental imaging<br />
         </>
       ),
     },
